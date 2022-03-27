@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.body-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5em 5em 1em 5em;
+}
+
+.body-container:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 40px;
+  border-bottom: 1px solid #797570;
+}
+
+.body-container-dark {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2em;
+}
+
+.body-container-dark-2 {
+  color: white;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2em;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-content-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-title {
+  font-size: 34px;
+  font-weight: bold;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.content-title-2 {
+  font-size: 34px;
+  font-weight: bold;
+  align-items: flex-start;
+  text-align: left;
+  align-content: stretch;
+}
+
+.content-text {
+  font-size: 20px;
+  width: 70%;
+}
+
+.content-text-2 {
+  font-size: 20px;
+  width: 70%;
+  padding-left: 10%;
+}
+
+.image {
+  height: 300px;
+  width: 500px;
+  margin-top: 100px;
+  display: inline;
+}
+
+.image-2 {
+  height: 300px;
+  width: 500px;
+  margin-top: 15px;
+  display: inline;
+}
+
+.form-input {
+  border: solid 2px rgba(200, 198, 196, .4);
+  padding: 5px;
+  min-height: 36px;
+  width: 250px;
+  margin: 10px;
+}
+
+.text-area {
+  border: solid 2px rgba(200, 198, 196, .4);
+  resize: none;
+  width: 550px;
+  height: 200px;
+}
+
+.footer-button {
+  padding: .5em 1em;
+  border: 2px solid #a7a4a4;
+  background: none;
+  margin: 0;
+  font-size: 18px;
+  cursor: pointer;
+
 }
