@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kayak-marketing-page/static/css/main.3ab2f167.css",
+    "main.js": "/kayak-marketing-page/static/js/main.93dfad13.js",
+    "static/js/787.a9bab5bb.chunk.js": "/kayak-marketing-page/static/js/787.a9bab5bb.chunk.js",
+    "index.html": "/kayak-marketing-page/index.html",
+    "main.3ab2f167.css.map": "/kayak-marketing-page/static/css/main.3ab2f167.css.map",
+    "main.93dfad13.js.map": "/kayak-marketing-page/static/js/main.93dfad13.js.map",
+    "787.a9bab5bb.chunk.js.map": "/kayak-marketing-page/static/js/787.a9bab5bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ab2f167.css",
+    "static/js/main.93dfad13.js"
+  ]
+}
